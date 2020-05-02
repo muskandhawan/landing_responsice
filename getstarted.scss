@@ -1,0 +1,156 @@
+.GetStarted{
+    height: 90vh;
+    width: 100vw;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .GetStarted--Left{
+        width: 40%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 5vw;
+
+        .GetStarted--Heading{
+            color: #373737;
+            font-weight: 800;
+            align-self: start;
+            letter-spacing: 3.92px;
+            text-transform: uppercase;
+            font-size: 5rem;
+        }
+
+        .GetStarted--Img {
+            height: 70%;
+        }
+    }
+
+    .GetStarted--Right {
+        height: 70%;
+        width: 35%;
+        margin-right: 5vw;
+        border-radius: 2rem;
+        box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.16);
+
+        .GetStarted--Signup{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .GetStarted--Login{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        p {
+            font-size: 2rem;
+
+            span {
+                color: #4657ff;
+                cursor: pointer;
+                text-decoration: none;
+                padding-left: 1.5rem;
+            }
+
+            span:hover {
+                font-weight: 700;
+            }
+        }
+    }
+}
+@media screen and (max-width:959px){
+  .GetStarted{
+      height: 100vh;
+      width: 100vw;
+      background-color: #fafafa;
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      transform: translateY(50rem);
+
+      .GetStarted--Left{
+          width: 40%;
+          height: 80%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-around;
+          margin-left: 5vw;
+
+          .GetStarted--Heading{
+              color: #373737;
+              font-weight: 800;
+              align-self: start;
+              letter-spacing: 3.92px;
+              text-transform: uppercase;
+              font-size: 5rem;
+              text-align: center;
+              margin-left:15rem;
+          }
+
+          .GetStarted--Img {
+              height: 50%;
+              margin-left: 30rem;
+
+          }
+      }
+
+      .GetStarted--Right {
+          height: 100%;
+          width: 70%;
+          margin-left: 15vw;
+          border-radius: 2rem;
+          box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 0.16);
+          transform: translateY(20rem);
+
+
+          .GetStarted--Signup{
+              height: 100%;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              align-items: center;
+              transform: translateY(10rem);
+          }
+
+          .GetStarted--Login{
+              height: 100%;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              align-items: center;
+          }
+
+          p {
+              font-size: 2rem;
+
+              span {
+                  color: #4657ff;
+                  cursor: pointer;
+                  text-decoration: none;
+                  padding-left: 1.5rem;
+              }
+
+              span:hover {
+                  font-weight: 700;
+              }
+          }
+      }
+  }
+
+
+}

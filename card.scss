@@ -1,0 +1,60 @@
+.Card{
+    height: 100%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .Card--Img{
+        height: 70%;
+        width: auto;
+    }
+
+    .Card--Rule{
+        height: 1%;
+        width: 20%;
+        border-radius: 5px;
+        background-color: #5b5b5b;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
+    }
+
+    .Card--Heading{
+        color: #5b5b5b;
+        font-weight: bold;
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+@media screen and (max-width:959px){
+  .Card{
+      height: 80%;
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      .Card--Img{
+          height: 70%;
+          width: auto;
+      }
+
+      .Card--Rule{
+          height: 1%;
+          width: 20%;
+          border-radius: 5px;
+          background-color: #5b5b5b;
+          box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
+      }
+
+      .Card--Heading{
+          color: #5b5b5b;
+          font-weight: bold;
+          font-size: 2rem;
+          text-align: center;
+      }
+  }
+}

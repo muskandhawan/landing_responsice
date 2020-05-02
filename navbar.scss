@@ -1,0 +1,98 @@
+.Navbar{
+    height: 13vh;
+    width: 100vw;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+
+    .Navbar--Logo{
+        font-size: 6rem;
+        padding-left: 5vw;
+        font-weight: 800;
+        color: #373737;
+        text-transform: uppercase;
+    }
+
+    .Navbar--Links{
+        height: 100%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 5vw;
+
+        .Navbar--Link{
+            color: #373737;
+            text-transform: uppercase;
+            letter-spacing: 2.34px;
+            line-height: 1.22;
+            font-size: 2.8rem;
+            text-decoration: none;
+            font-weight: 500;
+        }
+    }
+}
+@media screen and (max-width:959px){
+  .Navbar{
+    .Navbar{
+        //height: 13vh;
+        width: 100vw;
+
+        .Navbar--Logo{
+            font-size: 6rem;
+            padding-left: 5vw;
+            font-weight: 800;
+            color: #373737;
+            text-transform: uppercase;
+        }
+
+        .Navbar--Links{
+            height: 100%;
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 5vw;
+
+            .Navbar--Link{
+                color: #373737;
+                text-transform: uppercase;
+                letter-spacing: 2.34px;
+                line-height: 1.22;
+                font-size: 2.8rem;
+                text-decoration: none;
+                font-weight: 500;
+            }
+        }
+      width: 100%;
+
+      .Navbar--Logo{
+          font-size: 4rem;
+          padding-left: 5vw;
+          font-weight: 800;
+          color: #373737;
+          text-transform: uppercase;
+      }
+
+      .Navbar--Links{
+          height: 100%;
+          width: 60%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-right: 5vw;
+
+          .Navbar--Link{
+              color: #373737;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+              line-height: 1.22;
+              font-size: 1.4rem;
+          }
+        }
+      }
+}
